@@ -19,3 +19,17 @@ uninstall using
 ```shell
 rustup self uninstall
 ```
+
+## [Hello World](./hello_world)
+
+Compile Rust programs using
+
+```shell
+rustc main.rs
+```
+
+execute using
+
+```shell
+./main
+```

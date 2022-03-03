@@ -33,3 +33,45 @@ execute using
 ```shell
 ./main
 ```
+
+## [Cargo](./hello_cargo)
+
+A Rust package manager. Create new Rust projects using
+
+```shell
+cargo new <project_name>
+```
+
+Example
+
+```shell
+cargo new hello_cargo
+```
+
+Check if your code compiles successfully using
+
+```shell
+cargo check
+```
+
+Compile you code using
+
+```shell
+cargo build
+```
+
+_Execute compiled code by running the binary file of project present in `target/debug`_
+
+By default, builds are created in `dev` mode which are **_unoptimized + debuginfo_**, use `release` mode to get **_optimized_** builds
+
+```shell
+cargo build --release
+```
+
+_Execute compiled code by running the binary file of project present in `target/release`_
+
+Compile code and run binary file in one go using
+
+```shell
+cargo run
+```

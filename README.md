@@ -75,3 +75,5 @@ Compile code and run binary file in one go using
 ```shell
 cargo run
 ```
+
+## [Guessing Game](./guessing_game)

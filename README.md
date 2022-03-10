@@ -77,3 +77,9 @@ cargo run
 ```
 
 ## [Guessing Game](./guessing_game)
+
+A classic number guessing game
+
+## [Customized Guessing Game](./customized_guessing_game)
+
+Customized lowercase alphabet guessing game

@@ -20,7 +20,7 @@ uninstall using
 rustup self uninstall
 ```
 
-## [Hello World](./hello_world)
+## [Hello World](./1.2%20hello_world/)
 
 Compile Rust programs using
 
@@ -34,7 +34,7 @@ execute using
 ./main
 ```
 
-## [Cargo](./hello_cargo)
+## [Cargo](./1.3%20hello_cargo/)
 
 A Rust package manager. Create new Rust projects using
 
@@ -76,10 +76,10 @@ Compile code and run binary file in one go using
 cargo run
 ```
 
-## [Guessing Game](./guessing_game)
+## [Guessing Game](./2.0%20guessing_game/)
 
 A classic number guessing game
 
-## [Customized Guessing Game](./customized_guessing_game)
+## [Customized Guessing Game](./2.1%20customized_guessing_game/)
 
 Customized lowercase alphabet guessing game

@@ -83,3 +83,9 @@ A classic number guessing game
 ## [Customized Guessing Game](./2.1%20customized_guessing_game/)
 
 Customized lowercase alphabet guessing game
+
+## [Variables and Mutability](./3.1%20variables/)
+
+- By default, variables are immutable
+- Constants are always immutable,
+- Shadowing, in simple terms, means we reuse name of variable by using `let` again

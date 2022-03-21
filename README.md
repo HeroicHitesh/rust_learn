@@ -89,3 +89,23 @@ Customized lowercase alphabet guessing game
 - By default, variables are immutable
 - Constants are always immutable,
 - Shadowing, in simple terms, means we reuse name of variable by using `let` again
+
+## [Data Types](./3.2%20data_types/)
+
+- Scalar Types
+  - Integer Types
+    - Signed (Negative numbers stored using 2's complement)
+      - i8 / i16 / i32 / i64 / i128 / isize (depends on computer architecture)
+    - Unsigned (Always Positive)
+      - u8 / u16 / u32 / u64 / u128 / usize (depends on computer architecture)
+  - Floating-point Types
+    - f32 / f64
+  - Boolean Type (`bool`)
+    - True / False
+  - Character Type (`char`)
+    - `'c'` - stored in single quotes
+- Compound Types
+  - Tuple Type (`tup`)
+    - A comma-separated list of values (can be of different types) inside parentheses
+  - Array Type
+    - Every element in an array should be of same type

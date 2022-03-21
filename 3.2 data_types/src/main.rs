@@ -20,6 +20,11 @@ fn main() {
     // Error: Cannot print the value of a unit type
     // println!("The value of unit_tuples is: {}", unit_tuples);
 
+    // ⚔️ Quest
+    let x = (25, 'F', "Harley");
+    let (age, gender, name) = x;
+    println!("{0} is {1} years old this year. Gender = {2}", name, age, gender);
+
     // Arrays
     let _a = [3; 5];                     // An array of 5 elements all initialized to 3
     let a: [i32; 5] = [1, 2, 3, 4, 5];  // An array of 5 elements of type i32
@@ -29,4 +34,11 @@ fn main() {
     let first_month = months[0];    // Supports indexing
     let last_month = months[11];
     println!("The value of first_month and last_month are: {} and {} respectively", first_month, last_month);
+    
+    // ⚔️ Quest
+    let age: [i32; 6] = [10, 20, 30, 40, 50, 60];
+    let youngest = age[0];
+    let oldest = age[5];
+    println!("The youngest member in the company is {} years old.", youngest);
+    println!("The oldest member in the company is {} years old.", oldest);
 }

@@ -109,3 +109,7 @@ Customized lowercase alphabet guessing game
     - A comma-separated list of values (can be of different types) inside parentheses
   - Array Type
     - Every element in an array should be of same type
+
+## [5.1 Defining and Instantiating Structs](./5.1%20defining_and_instantiating_structs/)
+
+In a struct you’ll name each piece of data so it’s clear what the values mean, rest all is same as tuples

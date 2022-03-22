@@ -1,6 +1,6 @@
 # rust_learn
 
-## Installation
+## 1.1 Installation
 
 Install `rustup` using
 
@@ -20,7 +20,7 @@ uninstall using
 rustup self uninstall
 ```
 
-## [Hello World](./1.2%20hello_world/)
+## [1.2 Hello World](./1.2%20hello_world/)
 
 Compile Rust programs using
 
@@ -34,7 +34,7 @@ execute using
 ./main
 ```
 
-## [Cargo](./1.3%20hello_cargo/)
+## [1.3 Cargo](./1.3%20hello_cargo/)
 
 A Rust package manager. Create new Rust projects using
 
@@ -76,21 +76,21 @@ Compile code and run binary file in one go using
 cargo run
 ```
 
-## [Guessing Game](./2.0%20guessing_game/)
+## [2. Guessing Game](./2.0%20guessing_game/)
 
 A classic number guessing game
 
-## [Customized Guessing Game](./2.1%20customized_guessing_game/)
+## [2.1 Customized Guessing Game](./2.1%20customized_guessing_game/)
 
 Customized lowercase alphabet guessing game
 
-## [Variables and Mutability](./3.1%20variables/)
+## [3.1 Variables and Mutability](./3.1%20variables/)
 
 - By default, variables are immutable
 - Constants are always immutable,
 - Shadowing, in simple terms, means we reuse name of variable by using `let` again
 
-## [Data Types](./3.2%20data_types/)
+## [3.2 Data Types](./3.2%20data_types/)
 
 - Scalar Types
   - Integer Types
